@@ -1,0 +1,16 @@
+.slides-navigation a.prev,
+.slides-navigation a.next {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+  left: 20px;
+  background-image: url(../images/icons/prev.png);
+}
+.slides-navigation a.next {
+  right: 20px;
+  background-image: url(../images/icons/next.png);
+}
