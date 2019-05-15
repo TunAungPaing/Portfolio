@@ -14,6 +14,8 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -46,11 +48,11 @@
     <div id="about" class="section">
       <div class="container">
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-md-5">
             <img src="images/me.jpg" class="aboutimage" alt="PAING" />
           </div>
 
-          <div class="col-sm-7">
+          <div class="col-md-7">
             <h4>My name is Tun Aung Paing</h4>
             <p>
               is simply dummy text of the printing and typesetting industry.
@@ -72,7 +74,64 @@
       </div>
     </div>
 
+    <div id="skills" class=" skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skills</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas height="150" width="150"></canvas>
+              </span>
+              <h4>C#</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="150" width="150"></canvas>
+              </span>
+              <h4>HTML</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="150" width="150"></canvas>
+              </span>
+              <h4>MSSQL</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="75">
+                <span class="percent">75</span>
+                <canvas height="150" width="150"></canvas>
+              </span>
+              <h4>JAVASCRIPT</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas height="150" width="150"></canvas>
+              </span>
+              <h4>PHP</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery.superslides.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/jquery.easypiechart.min.js"></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
